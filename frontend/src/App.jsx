@@ -21,11 +21,11 @@ import {
 const skills = [
   {
     category: "Frontend",
-    items: ["React", "TypeScript", "Tailwind CSS", "Bootstrap", "Blade", "Inertia.js"]
+    items: ["React JS", "TypeScript", "Tailwind CSS", "Bootstrap", "Blade", "Aceternity UI", "DaisyUI", "HTML", "CSS"]
   },
   {
     category: "Backend", 
-    items: ["Laravel", "MySql", "Node.js"]
+    items: ["PHP - Laravel", "MySql", "Node JS", "Express JS", "MongoDB"]
   },
   {
     category: "Cloud & DevOps",
@@ -33,7 +33,7 @@ const skills = [
   },
   {
     category: "Tools & Others",
-    items: ["Git", "REST APIs", "Figma"]
+    items: ["Git", "REST APIs", "Figma", "Postman", "Hostinger", "Netlify", "Heroku", "Render"]
   }
 ];
 
@@ -45,23 +45,7 @@ const experiences = [
     period: "2023 - Present",
     description: "Led development of scalable web application Integrated System of Allied Services (ISAS). Improved application performance by 40% through optimization strategies.",
     technologies: ["React", "Laravel", "REST Apis", "MySql", "Docker", "TypeScript", "Git"]
-  },
-  {
-    id: 2,
-    title: "Mid Full-Stack Developer",
-    company: "National Center for Mental Health",
-    period: "2023 - Present",
-    description: "Led development of scalable web application Integrated System of Allied Services (ISAS). Improved application performance by 40% through optimization strategies.",
-    technologies: ["React", "Laravel", "REST Apis", "MySql", "Docker", "TypeScript", "Git"]
-  },
-  {
-    id: 3,
-    title: "Mid Full-Stack Developer",
-    company: "National Center for Mental Health",
-    period: "2023 - Present",
-    description: "Led development of scalable web application Integrated System of Allied Services (ISAS). Improved application performance by 40% through optimization strategies.",
-    technologies: ["React", "Laravel", "REST Apis", "MySql", "Docker", "TypeScript", "Git"]
-  },
+  }
 ];
 
 // const projects = [
@@ -227,12 +211,10 @@ function App() {
                   </h2>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700">
                     <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                      I'm a passionate full-stack developer with over 2 years of experience building scalable web applications. 
-                      I specialize in modern JavaScript and PHP frameworks, and creating exceptional user experiences.
+                      I'm a dedicated full-stack developer with 2 years of experience, specializing in JavaScript and PHP frameworks. Currently a mid-level web developer and team leader at the National Center for Mental Health (NCMH), I lead development efforts, manage projects, and provide ongoing support and maintenance. Beyond coding, I actively contribute through team meetings and user support. My tech stack includes tools like React, Laravel, Node.js, and Blade — with a strong focus on system design and performance.
                     </p>
                     <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                      My expertise spans from frontend development with React and Blade to backend systems using Node.js and Laravel. 
-                      I'm passionate about clean code, system architecture, and staying up-to-date with the latest technologies.
+                      Outside of work, I enjoy playing basketball, bowling, billiards, and chess — and I’m currently learning how to surf.
                     </p>
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
