@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon backend/server.js",
-    "build": "npm install && npm install -D @vitejs/plugin-react && npm install --prefix frontend && npm install -D @vitejs/plugin-react --frontend && npm run build --prefix frontend",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "node backend/server.js"
   },
   "repository": {
@@ -27,7 +27,6 @@
     "mongoose": "^8.16.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.6.0",
     "nodemon": "^3.1.10"
   }
 }
